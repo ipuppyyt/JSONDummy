@@ -27,5 +27,10 @@ export async function GET(req: NextRequest) {
         };
     });
 
-    return NextResponse.json({ status: 200, userCount: validUserCount, users });
+    return NextResponse.json({ status: 200, userCount: validUserCount, users }, {
+        headers: {
+            'Access-Control-Allow-Origin': '*', // Allow all origins
+            'Content-Type': 'application/json'
+        }
+    });
 }

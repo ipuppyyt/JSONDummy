@@ -15,7 +15,8 @@ export async function GET(req: NextRequest) {
     if (!productTypeParam) {
         return NextResponse.json({ status: 400, message: 'Please provide a product type' });
     }
-    // pick from file name in the same directory based on the productTypeParam and if it doesn't exist, return a 404
+    
+    
     let products;
     try {
         products = await import(`./${productTypeParam}.ts`);

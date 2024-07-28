@@ -156,4 +156,194 @@ export const furniture = [
         category: ['Bedroom'],
         subcategory: 'Bed'
     },
+    //8
+    {
+        id: generateNumericUUIDNumber(),
+        name: 'VK Furniture Solid Sheesham',
+        description: 'The VK Furniture Solid Sheesham Wood Four Seater Dining Table set is designed to add elegance and functionality to any living space. This dining set includes a beautifully crafted wooden table and four cushioned chairs, making it a perfect choice for homes, offices, and restaurants.',
+        price: faker.number.float({ min: 30000, max: 700000, multipleOf: 2 }),
+        thumbnail: 'https://m.media-amazon.com/images/I/71QFx-Hs4nL._SX425_.jpg',
+        image: [
+            'https://m.media-amazon.com/images/I/71QFx-Hs4nL._SX425_.jpg',
+            'https://m.media-amazon.com/images/I/61BW8Blwu9L._SX425_.jpg',
+            'https://m.media-amazon.com/images/I/51rOmfyj8GL._SX425_.jpg',
+            'https://m.media-amazon.com/images/I/51GQEjFJ08L._SX425_.jpg',
+            'https://m.media-amazon.com/images/I/611Ri2WiVQL._SX425_.jpg'
+        ],
+        availability: faker.number.int({ min: 0, max: 1000 }),
+        reviews: generateReviews(),
+        category: ['Dining'],
+        subcategory: 'Table'
+    },
+    //9
+    {
+        id: generateNumericUUIDNumber(),
+        name: 'LIZZAWOOD®  Wood 4 Seater Dining Table with 4 Chair ',
+        description: '4 Seater Dining Room Set | Hotel Restaurant Dining Set | Dining Set (4 Seater Urben, Honey)This dining set is designed to add a touch of elegance to your dining room while providing a sturdy and durable surface for your meals.',
+        price: faker.number.float({ min: 30000, max: 700000, multipleOf: 2 }),
+        thumbnail: 'https://m.media-amazon.com/images/I/61fEKEqkROL._SX425_.jpg',
+        image: [
+            'https://m.media-amazon.com/images/I/61fEKEqkROL._SX425_.jpg',
+            'hhttps://m.media-amazon.com/images/I/51puuMf9K4L._SX425_.jpg',
+            'https://m.media-amazon.com/images/I/51RyTGZWetL._SX425_.jpg',
+            'https://m.media-amazon.com/images/I/618ExuBIQmL._SX425_.jpg',
+            'https://m.media-amazon.com/images/I/71YyfuwxQ1L._SX425_.jpg'
+        ],
+        availability: faker.number.int({ min: 0, max: 1000 }),
+        reviews: generateReviews(),
+        category: ['Dining'],
+        subcategory: 'Table'
+    },
+    //10
+    {
+        id: generateNumericUUIDNumber(),
+        name: 'Credenza Sheesham Wood Dining Chairs ',
+        description: 'This Dining Chair is made up of Solid Sheesham wood and the ingenious design of the Chairs Home Set will refresh your interiors with its plush look & elegant finish and complement any existing decor.',
+        price: faker.number.float({ min: 30000, max: 700000, multipleOf: 2 }),
+        thumbnail: 'https://m.media-amazon.com/images/I/61fEKEqkROL._SX425_.jpg',
+        image: [
+            'https://m.media-amazon.com/images/I/51ZfTjiCXEL._SX425_.jpg',
+            'https://m.media-amazon.com/images/I/51kgvBenpNL._SX425_.jpg',
+            'https://m.media-amazon.com/images/I/413KWpHYsOL._SX425_.jpg',
+            'https://m.media-amazon.com/images/I/51qBX7yXpWL._SX425_.jpg',
+            'https://m.media-amazon.com/images/I/41-rNqdoT3L._SX425_.jpg'
+        ],
+        availability: faker.number.int({ min: 0, max: 1000 }),
+        reviews: generateReviews(),
+        category: ['Dining'],
+        subcategory: 'Chair'
+    },
+    //11
+    {
+        id: generateNumericUUIDNumber(),
+        name: 'Wiprowood Shri Karni Handicraft Wooden Dining Chairs Only ',
+        description: 'We are making furniture since last 20 years . Our furniture made with pure sheesham wooden.',
+        price: faker.number.float({ min: 30000, max: 700000, multipleOf: 2 }),
+        thumbnail: 'https://m.media-amazon.com/images/I/61G6ROGOY2L._SX425_.jpg',
+        image: [
+            'https://m.media-amazon.com/images/I/61G6ROGOY2L._SX425_.jpg',
+            'https://m.media-amazon.com/images/I/51aUwd151sL._SX425_.jpg',
+            'https://m.media-amazon.com/images/I/5149L4c9bLL._SY679_.jpg',
+            'https://m.media-amazon.com/images/I/61bl4Ex1uPL._SX425_.jpg',
+            'https://m.media-amazon.com/images/I/61pUhyeLUxL._SX425_.jpg'
+        ],
+        availability: faker.number.int({ min: 0, max: 1000 }),
+        reviews: generateReviews(),
+        category: ['Dining'],
+        subcategory: 'Chair'
+    },
+    //12
+    {
+        id: generateNumericUUIDNumber(),
+        name: 'Wood Kitchen Crockery Cabinet',
+        description: 'Each Piece is constructed using Mortise and Tenon Joinery in the hardwood frames.Wood Planks are hand-selected,Hand planed and sanded.',
+        price: faker.number.float({ min: 30000, max: 700000, multipleOf: 2 }),
+        thumbnail: 'https://m.media-amazon.com/images/I/71+QfQhEzNL._SX425_.jpg',
+        image: [
+            'https://m.media-amazon.com/images/I/71+QfQhEzNL._SX425_.jpg',
+            'https://m.media-amazon.com/images/I/51nmK6lXEVL._SX425_.jpg',
+            'https://m.media-amazon.com/images/I/51xyZudWhBL._SX425_.jpg',
+        ],
+        availability: faker.number.int({ min: 0, max: 1000 }),
+        reviews: generateReviews(),
+        category: ['Dining'],
+        subcategory: 'Cabinet'
+    },
+    
+    //13
+    {
+        id: generateNumericUUIDNumber(),
+        name: 'Low Height Queen Size Bed without Storage',
+        description: 'Driftingwood is a well known Indian brand that has been working for the most recent 8 Years in India and In terms of quality.',
+        price: faker.number.float({ min: 30000, max: 700000, multipleOf: 2 }),
+        thumbnail: 'https://m.media-amazon.com/images/I/71by5YR-MwL._SX425_.jpg',
+        image: [
+            'https://m.media-amazon.com/images/I/71by5YR-MwL._SX425_.jpg',
+            'https://m.media-amazon.com/images/I/61ZlyQMGUkL._SX425_.jpg',
+            'https://m.media-amazon.com/images/I/71PItBXTJbL._SX425_.jpg',
+            'https://m.media-amazon.com/images/I/51SXLIVlnML._SX425_.jpg',
+            'https://m.media-amazon.com/images/I/51pHB9HB5zL._SX425_.jpg'
+        ],
+        availability: faker.number.int({ min: 0, max: 1000 }),
+        reviews: generateReviews(),
+        category: ['Bedroom'],
+        subcategory: 'Bed'
+    },
+    //14
+    {
+        id: generateNumericUUIDNumber(),
+        name: 'Nightstands End Side Table',
+        description: 'Drawers of Storage Keep Things Neat in the Bedroom, so you can rest easy. This side table gives ample storage space for your favorite books.',
+        price: faker.number.float({ min: 30000, max: 700000, multipleOf: 2 }),
+        thumbnail: 'https://m.media-amazon.com/images/I/61hAjiNmVdL._SX425_.jpg',
+        image: [
+            'https://m.media-amazon.com/images/I/61hAjiNmVdL._SX425_.jpg',
+            'https://m.media-amazon.com/images/I/51zTyha0H8L._SX425_.jpg',
+            'https://m.media-amazon.com/images/I/511UzA+M6KL._SX425_.jpg'
+        ],
+        availability: faker.number.int({ min: 0, max: 1000 }),
+        reviews: generateReviews(),
+        category: ['Bedroom'],
+        subcategory: 'Nightstand'
+    },
+    //15
+    {
+        id: generateNumericUUIDNumber(),
+        name: 'DeckUp Plank Alvo 2-Door Engineered Wood Shoe Rack',
+        description: 'We are making furniture since last 20 years . Our furniture made with pure sheesham wooden.',
+        price: faker.number.float({ min: 30000, max: 700000, multipleOf: 2 }),
+        thumbnail: 'https://m.media-amazon.com/images/I/81oZYAQIBiL._SY679_.jpg',
+        image: [
+            'https://m.media-amazon.com/images/I/81oZYAQIBiL._SY679_.jpg',
+            'https://m.media-amazon.com/images/I/71huVM28bGL._SY606_.jpg',
+            'https://m.media-amazon.com/images/I/61NQYBBu01L._SY606_.jpg',
+            'https://m.media-amazon.com/images/I/71+EKPzO9lL._SY606_.jpg',
+            'https://m.media-amazon.com/images/I/71xX6c7DFpL._SY741_.jpg'
+        ],
+        availability: faker.number.int({ min: 0, max: 1000 }),
+        reviews: generateReviews(),
+        category: ['Living Room','Bedroom'],
+        subcategory: 'Cabinet'
+    },
+    //16
+    {
+        id: generateNumericUUIDNumber(),
+        name: 'King Size Weave Niwar Bed',
+        description: ' Lignum Arts is an Indian brand from Rajasthan that has been working for the most recent 10 Years in India and our Item quality is amazing we have confidence in quality work and craftsmanship.',
+        price: faker.number.float({ min: 30000, max: 700000, multipleOf: 2 }),
+        thumbnail: 'https://m.media-amazon.com/images/I/81ccBpqAO1L._SX425_.jpg',
+        image: [
+            'https://m.media-amazon.com/images/I/81ccBpqAO1L._SX425_.jpg',
+            'https://m.media-amazon.com/images/I/814Hyqv1QlL._SX425_.jpg',
+            'https://m.media-amazon.com/images/I/81Bdm424sTL._SX425_.jpg',
+            'https://m.media-amazon.com/images/I/417Yp3becyS._SX425_.jpg',
+            'https://m.media-amazon.com/images/I/71EO+pkcwyL._SX425_.jpg'
+        ],
+        availability: faker.number.int({ min: 0, max: 1000 }),
+        reviews: generateReviews(),
+        category: ['Bedroom'],
+        subcategory: 'Bed'
+    },
+    //17
+    {
+        id: generateNumericUUIDNumber(),
+        name: 'Nightstands End Side Table',
+        description: 'Drawers of Storage Keep Things Neat in the Bedroom, so you can rest easy. This side table gives ample storage space for your favorite books.',
+        price: faker.number.float({ min: 30000, max: 700000, multipleOf: 2 }),
+        thumbnail: 'https://m.media-amazon.com/images/I/71TR4ruV02L._SX425_.jpg',
+        image: [
+            'https://m.media-amazon.com/images/I/71TR4ruV02L._SX425_.jpg',
+            'https://m.media-amazon.com/images/I/51k15mkJLoL._SY679_.jpg',
+            'https://m.media-amazon.com/images/I/61GpAnQEefL._SX425_.jpg',
+            'https://m.media-amazon.com/images/I/61UpakYSZeL._SX425_.jpg'
+        ],
+        availability: faker.number.int({ min: 0, max: 1000 }),
+        reviews: generateReviews(),
+        category: ['Bedroom'],
+        subcategory: 'Nightstand'
+    },
+
+    
+
+
 ];

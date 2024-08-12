@@ -5,9 +5,10 @@ import CONSOLE from '@assets/lottie/console.json';
 import React from 'react';
 import Link from 'next/link';
 import Github from '@/assets/icons/Github';
+import Footer from '@/components/footer';
 
 const Home = () => {
-  return (
+  return (<>
     <section className='min-h-[90vh] pt-44 md:pt-32 font-garet-medium flex select-none'>
       <div className='container mx-auto flex flex-col md:flex-row items-center justify-center h-full px-4'>
         <div className='md:mt-0 md:w-1/2 flex flex-col items-start justify-center'>
@@ -34,7 +35,8 @@ const Home = () => {
 
       </div>
     </section>
-  );
+    <Footer />
+  </>);
 }
 
 export default Home;

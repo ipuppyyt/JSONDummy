@@ -54,19 +54,10 @@ const Sidebar = () => {
 
     return (
         <>
-            <button
-                onClick={toggleSidebar}
-                aria-controls="sidebar-multi-level-sidebar"
-                type="button"
-                className="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden "
-            >
-                <span className="sr-only">Open sidebar</span>
-            </button>
-
             <aside id="sidebar-multi-level-sidebar"
-                className={`fixed top-0 left-0 z-40 w-64 h-screen mt-[10vh] border-r-[0.1px] border-gray-800 transition-transform ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'} sm:translate-x-0`}
+                className={`top-0 left-0 z-10 w-0 hidden md:w-64 md:flex mt-[10vh] border-r-[0.1px] border-gray-800 transition-transform ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'} sm:translate-x-0`}
                 aria-label="Sidebar">
-                <div className="h-full px-3 py-4 overflow-y-auto bg-black backdrop-blur-lg">
+                <div className=" w-full px-3 py-4 overflow-y-auto bg-black backdrop-blur-lg">
                     <ul className="space-y-2 font-medium">
                         <li>
                             <Link href="/docs"

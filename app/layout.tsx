@@ -3,7 +3,6 @@ import { metadata as Meta } from "@metadata";
 import "@assets/styles/globals.css";
 import { Metadata } from "next";
 import Navbar from '@/components/navbar';
-import Footer from '@/components/footer';
 
 export const metadata: Metadata = Meta;
 
@@ -17,7 +16,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <body className='bg-black text-white'>
         <Navbar />
         {children}
-        <Footer />
       </body>
     </html>
   );

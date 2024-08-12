@@ -3,8 +3,8 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className='h-[10vh] py-2 shadow-md'>
-            <div className='flex flex-col md:flex-row justify-between px-6 md:px-28 items-center h-full'>
+        <footer className='h-[10vh] z-20 py-2 shadow-md'>
+            <div className='flex flex-col md:flex-row justify-between px-6 md:px-24 items-center h-full'>
 
                 <span className='text-sm font-garet-bold md:text-sm text-center md:text-left'>
                     &copy; {new Date().getFullYear()}&nbsp;

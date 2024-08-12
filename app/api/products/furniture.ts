@@ -342,8 +342,4 @@ export const furniture = [
         category: ['Bedroom'],
         subcategory: 'Nightstand'
     },
-
-    
-
-
 ];

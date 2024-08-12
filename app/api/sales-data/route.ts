@@ -1,5 +1,3 @@
-// app/api/products/route.ts
-
 import { NextRequest, NextResponse } from 'next/server';
 
 export async function GET(req: NextRequest) {
@@ -9,7 +7,7 @@ export async function GET(req: NextRequest) {
     if (!productTypeParam) {
         return NextResponse.json({ status: 400, message: 'Please provide a product type' }, {
             headers: {
-                'Access-Control-Allow-Origin': '*', // Allow all origins
+                'Access-Control-Allow-Origin': '*',
                 'Content-Type': 'application/json'
             }
         });

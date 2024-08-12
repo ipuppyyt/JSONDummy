@@ -14,16 +14,16 @@ const generateReviews = () => {
 }
 
 function generateNumericUUIDNumber() {
-    let d = new Date().getTime(); // Timestamp
+    let d = new Date().getTime();
     if (typeof performance !== 'undefined' && typeof performance.now === 'function') {
-        d += performance.now(); // Add high-resolution time
+        d += performance.now();
     }
 
     let uuid = '';
     for (let i = 0; i < 16; i++) {
-        const r = (d + Math.random() * 10) % 10 | 0; // Random number from 0 to 9
-        d = Math.floor(d / 10); // Shift the timestamp
-        uuid += r.toString(); // Append numeric representation
+        const r = (d + Math.random() * 10) % 10 | 0;
+        d = Math.floor(d / 10);
+        uuid += r.toString();
     }
 
     return parseInt(uuid, 10);
